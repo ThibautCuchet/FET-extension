@@ -1,8 +1,16 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import LiveConfigPage from "./components/LiveConfigPage/LiveConfigPage"
+import ConfigPage from "./components/ConfigPage/ConfigPage"
+import { ThemeProvider } from '@material-ui/core/styles';
+import theme from './theme'
+
+const config = (
+  <ThemeProvider theme={theme}>
+    <ConfigPage />
+  </ThemeProvider>
+)
 
 ReactDOM.render(
-  <LiveConfigPage />,
+  config,
   document.getElementById("root")
 )
