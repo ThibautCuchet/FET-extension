@@ -27,7 +27,7 @@
     "html-webpack-plugin": "^4.3.0",
     "isomorphic-fetch": "^2.2.1",
     "jest": "^24.9.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^4.14.1",
     "regenerator-runtime": "^0.13.5",
     "sass-loader": "^7.3.1",
     "style-loader": "^0.21.0",
@@ -36,9 +36,9 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.12",
+    "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
-    "@material-ui/styles": "^4.9.10",
+    "@material-ui/styles": "^4.9.13",
     "core-js": "^3.6.5",
     "jsonwebtoken": "^8.5.1",
     "react": "^16.13.1",
